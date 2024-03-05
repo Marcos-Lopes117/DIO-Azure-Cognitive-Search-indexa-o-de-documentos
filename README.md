@@ -81,7 +81,30 @@ Note que o nome para ser aceito do container precisa estar livre de maiúsculas 
 
 ![image](https://github.com/toniacprado/DIO-Azure-Cognitive-Search-Utilizando-AI-Search-para-indexacao-e-consulta-de-Dados/assets/105946569/7f4843ef-25cd-46ea-b9ec-a1e7d8e9a09d)
 
+As informações de criação foi seguindo o que está informado na documentação oficial:
 
+Data Source: Azure Blob Storage
+
+Data source name: coffee-customer-data
+
+Data to extract: Content and metadata
+
+Parsing mode: Default
+
+Connection string: *Select Choose an existing connection. Select your storage account, select the coffee-reviews container, and then click Select.
+
+Managed identity authentication: None
+
+Container name: this setting is auto-populated after you choose an existing connection.
+
+Blob folder: Leave this blank.
+
+Description: Reviews for Fourth Coffee shops.
+
+
+![image](https://github.com/toniacprado/DIO-Azure-Cognitive-Search-Utilizando-AI-Search-para-indexacao-e-consulta-de-Dados/assets/105946569/b3992f7c-1d72-49b6-92f2-9b033f248bf9)
+
+### o detalhamento de como importar os dados seguiu a documentação oficial na parte do documento chamada: "Index the documents"
 
 
 
@@ -92,7 +115,7 @@ Neste lab foram criados um mecanismo de busca, um recurso de inteligêncai artif
 
 ---
 
-Foi utilizado além das instruções das video aulas este link da documentação oficial: 
+### Foi utilizado além das instruções das video aulas este link da documentação oficial: 
 
 
 https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/11-ai-search.html
