@@ -61,3 +61,40 @@ Pesquisar na barra superior por "Storage Account"
 
 ![image](https://github.com/toniacprado/DIO-Azure-Cognitive-Search-Utilizando-AI-Search-para-indexacao-e-consulta-de-Dados/assets/105946569/a6bc7cdf-0e28-451a-bfbf-dda03718a49b)
 
+### Configurando o Storage Account para o acesso anonimo -- Exigência do laboratório:
+
+#### Permitir acesso anônimo de Blob:
+
+![image](https://github.com/toniacprado/DIO-Azure-Cognitive-Search-Utilizando-AI-Search-para-indexacao-e-consulta-de-Dados/assets/105946569/537dfd97-a24a-4fcb-ab35-afd2308afc73)
+
+#### Criar um novo container
+
+![image](https://github.com/toniacprado/DIO-Azure-Cognitive-Search-Utilizando-AI-Search-para-indexacao-e-consulta-de-Dados/assets/105946569/9d0bc3ae-6741-47b3-a7da-8cf1a4f475b1)
+
+Note que o nome para ser aceito do container precisa estar livre de maiúsculas e outros símbolos.
+
+#### Selecionar o container criado e fazer o upload dos arquivos fornecidos na documentação (descompactar o reviews.zip) são 9 arquivos de exemplo:
+
+![image](https://github.com/toniacprado/DIO-Azure-Cognitive-Search-Utilizando-AI-Search-para-indexacao-e-consulta-de-Dados/assets/105946569/c7706340-0c6e-4802-94f9-5de95208f43c)
+
+#### Agora ir até o Mecanismo de Busca criado e importar os dados
+
+![image](https://github.com/toniacprado/DIO-Azure-Cognitive-Search-Utilizando-AI-Search-para-indexacao-e-consulta-de-Dados/assets/105946569/7f4843ef-25cd-46ea-b9ec-a1e7d8e9a09d)
+
+
+
+
+
+
+## Considerações Finais
+
+Neste lab foram criados um mecanismo de busca, um recurso de inteligêncai artifical e um storage account.
+
+---
+
+Foi utilizado além das instruções das video aulas este link da documentação oficial: 
+
+
+https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/11-ai-search.html
+
+
